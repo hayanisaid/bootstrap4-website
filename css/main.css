@@ -21,3 +21,48 @@ body{
 .navbar-collapse{
  justify-content: flex-end;
 }
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../images/headerback.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:#F97300 ;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #F97300;
+	background:#F97300;
+	color:#fff;
+}
+.about{
+	margin: 3em 0;
+	padding: 1em;
+}
