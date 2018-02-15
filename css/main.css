@@ -1,6 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
+	background:#f4f4f4;
 }
 
 .navbar{
@@ -63,6 +64,77 @@ body{
 	color:#fff;
 }
 .about{
-	margin: 3em 0;
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#F97300;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+/*Portfolio*/
+.portfolio{
+	margin: 4em 0;
+    position: relative;	
+}
+.portfolio h1{
+	color:#F97300;
+	margin: 2em;	
+}
+.portfolio img{
+	 height: 15rem;
+	 width: 100%;
+	 margin: 1em;
+
+	
+
+}
+
+/*blog style*/
+
+.blog{
+	margin: 4em 0;
+	position: relative;	
+}
+.blog h1{
+	color:#F97300;
+	margin: 2em;	
+}
+.blog .card{
+	box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+	width: 100%;
+	height: 12em;
+}
+.blog .card-title{
+	color:#F97300;
+	 
+}
+.blog .card-body{
 	padding: 1em;
 }
