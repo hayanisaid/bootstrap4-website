@@ -140,7 +140,8 @@ body{
 }
 .team{
 	margin: 4em 0;
-	position: relative;		
+	position: relative;
+
 }
 .team h1{
 	color:#F97300;
@@ -148,13 +149,17 @@ body{
 }
 .team .item{
 	position: relative;
+	overflow: hidden;	
 }
 .team .des{
 	background: #F97300;
 	color: #fff;
 	text-align: center;
-	border-bottom-left-radius: 93%;
+	border-top-right-radius: 93%;
 	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
 
 
 }
@@ -165,5 +170,22 @@ body{
 	width: 89%;
 	padding: 5em;
 	top: 0;
-	border-bottom-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: #F97300; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  #F97300;
+	color: #fff;
+	border:0;
 }
