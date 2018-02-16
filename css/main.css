@@ -138,3 +138,32 @@ body{
 .blog .card-body{
 	padding: 1em;
 }
+.team{
+	margin: 4em 0;
+	position: relative;		
+}
+.team h1{
+	color:#F97300;
+	margin: 2em;	
+}
+.team .item{
+	position: relative;
+}
+.team .des{
+	background: #F97300;
+	color: #fff;
+	text-align: center;
+	border-bottom-left-radius: 93%;
+	transition:.3s ease-in-out;
+
+
+}
+.team .item:hover .des{
+	height: 100%;
+	background:#f973007d;
+    position: absolute;
+	width: 89%;
+	padding: 5em;
+	top: 0;
+	border-bottom-left-radius: 0;
+}
