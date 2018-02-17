@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body{
 	padding: 0;
 	margin: 0;
 	background:#f4f4f4;
 }
-
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
 .navbar{
 	background:#F97300;
 }
@@ -131,6 +135,11 @@ body{
 	width: 100%;
 	height: 12em;
 }
+@media and (max-width: 768px){
+ .team .item img{
+ 	width: 100%;
+ }	
+}
 .blog .card-title{
 	color:#F97300;
 	 
@@ -188,4 +197,8 @@ body{
 	background:  #F97300;
 	color: #fff;
 	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
 }
