@@ -9,7 +9,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	font-family: "Raleway";
 }
 .navbar{
-	background:#F97300;
+	background:#000000;
 }
 .nav-link , .navbar-brand{
 	color: #f4f4f4;
@@ -20,7 +20,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .nav-link:hover{
 	background: #f4f4f4;
-	color: #f97300;
+	color: #00000;
 
 }
 .navbar-collapse{
@@ -54,7 +54,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 }
 .description h1{
-	color:#F97300 ;
+	color:#000000 ;
 }
 .description p{
 	color:#666;
@@ -63,8 +63,8 @@ html,h1,h2,h3,h4,h5,h6,a{
 	line-height: 1.5;
 }
 .description button{
-	border:1px  solid #F97300;
-	background:#F97300;
+	border:1px  solid #00000;
+	background:#000000;
 	color:#fff;
 }
 .about{
@@ -73,7 +73,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: relative;
 }
 .about h1{
-	color:#F97300;
+	color:#000000;
 	margin: 2em;
 }
 .about img{
@@ -106,7 +106,7 @@ html,h1,h2,h3,h4,h5,h6,a{
     position: relative;	
 }
 .portfolio h1{
-	color:#F97300;
+	color:#00000;
 	margin: 2em;	
 }
 .portfolio img{
@@ -125,7 +125,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: relative;	
 }
 .blog h1{
-	color:#F97300;
+	color:#00000;
 	margin: 2em;	
 }
 .blog .card{
@@ -141,7 +141,7 @@ html,h1,h2,h3,h4,h5,h6,a{
  }	
 }
 .blog .card-title{
-	color:#F97300;
+	color:#00000;
 	 
 }
 .blog .card-body{
@@ -153,7 +153,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 }
 .team h1{
-	color:#F97300;
+	color:#00000;
 	margin: 2em;	
 }
 .team .item{
@@ -161,7 +161,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 	overflow: hidden;	
 }
 .team .des{
-	background: #F97300;
+	background: #00000;
 	color: #fff;
 	text-align: center;
 	border-top-right-radius: 93%;
@@ -174,7 +174,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .team .item:hover .des{
 	height: 100%;
-	background:#f973007d;
+	background:#000007d;
     position: absolute;
 	width: 89%;
 	padding: 5em;
@@ -188,13 +188,13 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 .contact-form h1{
 	padding:2em 1px;
-	color: #F97300; 
+	color: #00000; 
 }
 .contact-form .right{
 	max-width: 600px;
 }
 .contact-form .right .btn-secondary{
-	background:  #F97300;
+	background:  #00000;
 	color: #fff;
 	border:0;
 }
