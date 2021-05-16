@@ -1,4 +1,4 @@
-## Landing page website 
+##  Responsive  bootstrap Landing page website 
 
 ![preview](images/scroll-eff.gif)
 
